@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+#app {
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  &__title {
+    color: #a90433;
+    text-decoration: none;
+  }
+}
+
+.drawer {
+  &__link {
+    color: #a90433;
+  }
+}
+
+.color {
+  &_primary {
+    color: #a90433;
+  }
+}
